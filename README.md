@@ -13,3 +13,8 @@ Usage
 ====================
 
 The reader needs to the know the subreddit you're in and the thread you're on. You can supply this manually and select "Update". Or, put the entire thread link and select "Parse" and that should hopefully populate the necessary fields. Then you can click "Update" as per usual to get updates.
+
+Demo
+====================
+
+A quick demo of the project is located on <a href="http://jsfiddle.net/mailisa/zytnk9th/">JS Fiddle</a>.
