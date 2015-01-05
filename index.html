@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>Latest Reddit Reader</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" /> 
+	</head>
+	<body>
+		<p>
+		    Parse Reddit URL <br />
+		    <input id ="redditURL" type="text" value="http://www.reddit.com/r/nfl/comments/2rbzhr"></input> <br />
+		    <button id="parseButton" type="submit">Parse</button>
+		</p>
+		<p>
+		    Subreddit ID: <input id="subreddit" type="text" value="nfl"></input> <br />
+		    Thread ID: <input id="thread" type="text" value="2rbzhr"></input> <br />
+		    <button id="updateButton" type="submit">Update</button>
+		</p>
+
+		<div id="comment0" class="comment"></div>
+		<div id="comment1" class="comment"></div>
+		<div id="comment2" class="comment"></div>
+		<div id="comment3" class="comment"></div>
+		<div id="comment4" class="comment"></div>
+	</body>
+
+	<script src="js/reddit.min.js"></script>
+	<script src="js/latestredditreader.js"></script>
+</html>
